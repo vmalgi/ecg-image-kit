@@ -388,6 +388,7 @@ def run_pipeline(start_folder, end_folder):
           'noise': 40,
           'deterministic_rot': True,
           'deterministic_noise': True,
+        #   'hw_text': True,
           'n': 4,
           'wrinkles': True,
           'ca': 45,
