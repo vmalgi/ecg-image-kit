@@ -19,7 +19,7 @@ import validators
 import random
 import cv2
 import sys
-import time
+import time, uuid, tempfile, glob
 
 def get_parser():
     description = 'Create a corpus for medical corpus'
